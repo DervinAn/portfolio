@@ -11,7 +11,7 @@ export default defineConfig(async () => {
     : [];
 
   return {
-    base: '/Anas.Dev',
+    base: '/portfolio',
     build: {
       outDir: 'dist',     // NOT dist/public
       emptyOutDir: true
