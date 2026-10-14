@@ -4,14 +4,13 @@ export function EducationSection() {
   const achievements = [
     ...EDUCATION,
     ...CERTIFICATIONS.map((item) => ({ ...item, period: item.year, description: "Mentorship in leadership, project-based learning, and educational outreach." })),
-    { title: "AI Events & Recognition", institution: "Biskra & Oum El Bouaghi, Algeria", period: "2025", description: "Speaker at the Biskra Reads AI event; fifth place in an AI competition in Oum El Bouaghi." },
   ];
   return (
     <section id="education" className="py-16 md:py-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Education & Recognition</h2>
-          <p className="text-gray-600 dark:text-gray-400">Connecting software engineering with information systems strategy and management.</p>
+          <h2 className="text-3xl font-bold mb-4">Education</h2>
+          <p className="text-gray-600 dark:text-gray-400">My academic education and mentorship training.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {achievements.map((item) => (
@@ -23,7 +22,6 @@ export function EducationSection() {
             </article>
           ))}
         </div>
-        <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-10">Arabic (native) · English (fluent) · French (intermediate)</p>
       </div>
     </section>
   );
