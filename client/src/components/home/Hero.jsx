@@ -15,12 +15,12 @@ export function Hero() {
             </div>
             
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
-              Junior <span className="text-primary">[Android]</span><br />
+              <span className="text-primary">[Android]</span><br />
               Mobile Developer<span className="text-primary blink">_</span>
             </h1>
             
             <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-              I develop innovative Android applications with modern technologies like Kotlin, MVVM architecture, and Clean Code principles. I'm passionate about creating user-friendly mobile experiences that solve real-world problems.
+              I’m an Android developer with 3+ years of experience building scalable applications with Kotlin, Jetpack Compose, MVVM, and Clean Architecture. As co-founder of Qimora Agency, I turn client needs into software solutions. I’m currently pursuing a master’s in Strategic Management of Information Systems at ENSM, Koléa, Tipaza.
             </p>
             
             <div className="flex flex-wrap items-center gap-4 mb-8">

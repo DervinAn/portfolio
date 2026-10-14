@@ -11,9 +11,9 @@ export default defineConfig(async () => {
     : [];
 
   return {
-    base: '/portfolio',
+    base: '/portfolio/',
     build: {
-      outDir: 'dist',     // NOT dist/public
+      outDir: path.resolve(import.meta.dirname, 'dist'),     // NOT dist/public
       emptyOutDir: true
     },
     plugins: [
